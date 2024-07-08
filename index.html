@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="cssstyle.css">
+    <link rel="icon" type="image/png" href="/photo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body >
+    <style>
+        body {background-color: powderblue;}
+       
+        p    {color: red;}
+        </style>
+    <header>
+        <!--navbar-->
+        <nav class="navbar">
+            <ul class="nav-links">
+               
+                <li><a style="color:blue;" id="ab" href="#home">Home</a></li>
+                <li><a  class="am" href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!--search bar creation-->
+                <li class="search">
+                    <input class="find" type="search" placeholder="type to text">
+                    <button class="but">Search</button>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+
+    <main class="main">
+  <!-- Home Section -->
+        <section id="home">
+           
+           <p class="intro"><b>Hi, My name is Amina Kouni and this is my portfilio!</b></p>
+           <img alt="a laptop and a cup of coffee on a desk" class="img-fluid" height="333" src="https://asset.routledge.com/rt-files/Faculty/Laura+Maisey/10+tips+for+successful+studying+3+OP.jpg" width="500">
+        </section>
+<!-- about Section -->
+     <section class="rest"> <section id="about">
+           <h4  class="aboutme">About Me</h4>
+           <p>I am a buisness computing student </p>
+            <p>I enjoy creating responsive and user-friendly websites.</p>
+            <iframe id="video" src="https://www.youtube.com/embed/acBJsjCqgtM?si=lUv1OwZNL86Kn-Fz" >web development </iframe>
+        
+        </section>
+ <!-- work Section -->
+        <section id="work">
+            <h2 class="little"> Work</h2>
+            <ol class="mywork">
+                <li>I created an RSA encryption system Using C language </li>
+                <li>I developed Games using python</li>
+                <li>I am learning html, css and javascript</li>
+            </ol>
+        </section>
+        
+<!--resume section-->
+        <section id="resume">
+              <h2 class="aboutme">Resume</h2>
+              <p> i graduated from Bourguiba high School</p>
+              
+              <p>i study Buisness Computing </p>
+              <ul>
+                 <li>
+                    <strong>Institution :</strong> Higher Institute of Management Tunis<br>
+                 </li>
+              </ul>
+              <h3>Skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Version Control (Git)</li>
+       
+    </ul>
+    <!--download my resume-->
+    <p>Download my resume <a href="https://cdn.fbsbx.com/v/t59.2708-21/440168219_2119046608450619_4166090064433599297_n.pdf/cms.pdf?_nc_cat=111&ccb=1-7&_nc_sid=2b0e22&_nc_ohc=WpYmG7QUXTEAb4A146A&_nc_ht=cdn.fbsbx.com&oh=03_Q7cD1QFZkt3jBSgx4zsAMoX0Lau7Y1X30qGwQ_NpH6OddYszig&oe=662DF748&dl=1" target="_blank">here</a>.</p>
+        </section>
+ <!--contact section-->
+        <section id="contact">
+            <h2  class="aboutme">Contact </h2>
+             <form action ="mailto:aminakouni14@gmail.com" method="post" enctype="text/plain">
+            <label for ="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+            </form>
+        </section>
+       
+    </section>
+    </main>
+ 
+
+
+
+  
+  <footer>
+    <p> &copy; 2024 amina .All Rights Reserved</p>
+  </footer>
+</body>
+</html>

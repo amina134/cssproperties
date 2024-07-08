@@ -1,0 +1,82 @@
+body {
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+   
+        
+       
+       
+}
+
+.navbar{
+   
+    text-align: center;
+    background-color: #6F4E37;
+    width:100%;
+    position:fixed;
+    top:0%;
+    padding: 20px;
+}
+.nav-links{
+   list-style: none;
+
+   
+}
+.nav-links  li{
+    display:inline-block;
+    color: azure;
+    
+}
+.nav-links  li a{
+ 
+    color: azure;
+    margin-right: 45px;
+    text-decoration: none;
+}
+.intro{
+
+    text-align: left;
+    display: inline;
+    font-size: 60px;
+    color: #6F4E37;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    float: left;
+    position: absolute;
+    right: 60%;
+    bottom: 30%;
+    padding: 20px;
+   
+    margin: 20px 0px;
+ 
+    
+}
+#home{
+    margin-top: 20%;
+}
+.img-fluid{
+    position: absolute;
+    right:90px;
+    animation: mymove 5s infinite;
+    animation-delay: s;
+}
+/*hey*/
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+.rest{
+    margin-top: 36%;
+}
+#ab{
+    color: black !important;
+}
+.am{
+    color: chartreuse ;
+}
+.main{
+   
+    background-image: url("https://asset.routledge.com/rt-files/Faculty/Laura+Maisey/10+tips+for+successful+studying+3+OP.jpg");
+    background-repeat: no-repeat;
+   
+
+}
